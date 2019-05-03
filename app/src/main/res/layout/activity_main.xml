@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el grupo que desea ver la estadísticas"
+        android:textSize="20dp"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:checkedButton="@id/rb_todopublico">
+
+        <RadioButton
+            android:id="@+id/rb_todopublico"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todo el público"
+            android:textSize="20sp" />
+        <RadioButton
+            android:id="@+id/rb_mujeresadultas"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mujeres Adultas"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rb_hombresadultos"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hombres Adultos"
+            android:textSize="20sp" />
+        <RadioButton
+            android:id="@+id/rb_mujeresadolescentes"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mujeres Adolescentes"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rb_hombresadolescentes"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hombres Adolescentes"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rb_ninios"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Niños"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_estadisticas"
+        android:text="Estadísticas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+        android:gravity="bottom"
+        android:id="@+id/txt_estad"/>
+
+
+
+
+
+
+
+</LinearLayout>
