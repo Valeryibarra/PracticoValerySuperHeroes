@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione a su superheroe favorito:"
+        android:textSize="30dp"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:checkedButton="@id/rb_spiderman">
+
+        <RadioButton
+            android:id="@+id/rb_spiderman"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spiderman"
+            android:textSize="20sp" />
+        <RadioButton
+            android:id="@+id/rb_ironman"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iron Man"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rb_capitanamerica"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capitan America"
+            android:textSize="20sp" />
+        <RadioButton
+            android:id="@+id/rb_capitanamarvel"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capitana Marvel"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rb_hulk"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hulk"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rb_viudanegra"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La Viuda Negra"
+            android:textSize="20sp" />
+        <RadioButton
+            android:id="@+id/rb_thor"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thor"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rb_doctorstrange"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Strange "
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_votar"
+        android:text="VOTAR"/>
+
+</LinearLayout>
