@@ -132,7 +132,7 @@ public class VotarActivity extends AppCompatActivity {
                 }
                 //ahora guardo el resultado en la bd y lo paso a estadisticas
 
-                rtdb.getReference().child(ramaHeroe).child(grupo).push().setValue(usuario);
+                rtdb.getReference().child(grupo).child(ramaHeroe).push().setValue(usuario);
 
                 Intent i = new Intent(VotarActivity.this, MainActivity.class);
                 startActivity(i);
